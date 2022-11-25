@@ -5,7 +5,7 @@ import { UpdateBoqDto } from './dto/update-boq.dto';
 @Injectable()
 export class BoqService {
   create(createBoqDto: CreateBoqDto) {
-    return 'This action adds a new boq';
+    return 'Created BOQ';
   }
 
   findAll() {
