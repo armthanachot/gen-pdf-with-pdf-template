@@ -9,7 +9,7 @@ export class AppController {
   @Get()
   async getHello(){
     // await generatePdf()
-    await generatedMergedPdf()
+    await generatedMergedPdf() 
     return this.appService.getHello();
   }
 }
