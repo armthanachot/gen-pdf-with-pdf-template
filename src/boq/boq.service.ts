@@ -17,7 +17,7 @@ export class BoqService {
   }
 
   update(id: number, updateBoqDto: UpdateBoqDto) {
-    return `This action updates a #${id} boq`;
+    return `updated BOQ`;
   }
 
   remove(id: number) {
