@@ -6,7 +6,7 @@ import { UpdateBoqDto } from './dto/update-boq.dto';
 export class BoqService {
   create(createBoqDto: CreateBoqDto) {
     return 'Created BOQ #2';
-  }
+  } 
 
   findAll() {
     return `This action returns all boq`;
